@@ -3,8 +3,8 @@
 #include <UniversalTelegramBot.h>
  
 // Wifi network station credentials
-#define WIFI_SSID "MSI"
-#define WIFI_PASSWORD "Ciccioaka"
+#define WIFI_SSID "YourWifiName"
+#define WIFI_PASSWORD "YourWifiPassword"
 WiFiServer server(4080);
 IPAddress staticIP(192,168,15,100);
 IPAddress gateway(192, 168, 15, 122);
