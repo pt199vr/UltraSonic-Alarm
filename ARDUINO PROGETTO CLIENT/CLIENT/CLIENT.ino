@@ -3,8 +3,8 @@
 #include <UniversalTelegramBot.h>
 
 //WIFI
-const char* ssid = "MSI";   // your network SSID (name) 
-const char* password = "Ciccioaka";   // your network password
+const char* ssid = "YourWifiName";   // your network SSID (name) 
+const char* password = "YourWifiPassword";   // your network password
 int status = WL_IDLE_STATUS;  //status of the connection
 byte server[] = {192,168,15,100}; //server ip address
 
