@@ -12,7 +12,7 @@ IPAddress subnet(255, 255, 255, 0);
 IPAddress dns(157, 27, 0, 1);
 
 // Telegram BOT Token (Get from Botfather)
-#define BOT_TOKEN "2063169754:AAEF2t-bmWsFk7q7qP5xi-CWX6LUKCXvxcU" 
+#define BOT_TOKEN "0000000000:otherlettersandnumbers" 
 X509List cert(TELEGRAM_CERTIFICATE_ROOT);
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
